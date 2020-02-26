@@ -37,14 +37,14 @@ from loss_function import *
 def train_model():
     
     ## Create model
-    model= model(image_shape= cfg["Target_Size"])
+    model= model(image_shape= cfg["Input_Shape"])
     
     ## Compile the model
-    model.compile(optimizer= keras.optimizers.SGD(lr= cfg["lr"], momentum= cfg["Momentum"]), loss= loss_function, metrics=["accuracy"])
+    model.compile(optimizer= keras.optimizers.SGD(lr= cfg["lr"], momentum= cfg["Momentum"]), loss= ICE, metrics=["accuracy"])
     
     ## Data direction
     data_dir= cfg["Dataset_Address"]
-    target_dirs = {target: os.path.join(data_dir, target) for target in ['train', 'test']}
+    target_dirs = {target: os.path.join(data_dir, target) for target in ['train', 'valid']}
     
     ## Data generator
     image_data_gen_train = ImageDataGenerator(rescale=1./255, rotation_range= cfg["Rotation_Range"], width_shift_range= cfg["Width_Shift_Range"], 

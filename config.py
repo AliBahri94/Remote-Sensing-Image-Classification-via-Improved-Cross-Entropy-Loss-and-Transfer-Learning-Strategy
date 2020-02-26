@@ -3,7 +3,7 @@
 cfg = dict()
 
 ## Dataset Address
-cfg["Dataset_Address"]= "/path/to/data"
+cfg["Dataset_Address"]= "path/to/data"
 
 
 ## Image Format
@@ -17,9 +17,12 @@ cfg["Height_Shift_Range"]= 0.18
 cfg["Horizontal_Flip"]= True
 cfg["Fill_Mode"]= "nearest"
 
+## Input SHape
+cfg["Input_Shape"]= (256, 256, 3)
+
 
 ## Image Size for Resizing
-cfg["Target_Size"]= (255 , 255)
+cfg["Target_Size"]= (256 , 256)
 
 
 ## Class Mode (categorical or binary)
@@ -43,7 +46,7 @@ cfg["Momentum"]= 0.9
 
 
 ## The path to save models + log files
-cfg["Save_dir"]= "path/to/checkpoint"
+cfg["Save_dir"]= "path/to/checkpoint/"
 
 ############################### End ###############################
 
