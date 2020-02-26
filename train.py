@@ -37,10 +37,10 @@ from loss_function import *
 def train_model():
     
     ## Create model
-    model= model(image_shape= cfg["Input_Shape"])
+    NASNET_Model= model(image_shape= cfg["Input_Shape"])
     
     ## Compile the model
-    model.compile(optimizer= keras.optimizers.SGD(lr= cfg["lr"], momentum= cfg["Momentum"]), loss= ICE, metrics=["accuracy"])
+    NASNET_Model.compile(optimizer= keras.optimizers.SGD(lr= cfg["lr"], momentum= cfg["Momentum"]), loss= ICE, metrics=["accuracy"])
     
     ## Data direction
     data_dir= cfg["Dataset_Address"]
@@ -55,12 +55,19 @@ def train_model():
     image_generator_test= image_data_gen_test.flow_from_directory(target_dirs["test"], class_mode= cfg["Class_Mode"], target_size= cfg["Target_Size"], batch_size= cfg["Test_Batch_Size"], shuffle=True)
 
     ## Checkpoint 
-    callback_model= keras.callbacks.ModelCheckpoint( cfg["Save_dir"] + "model.h5", 
+    callback_model= keras.callbacks.ModelCheckpoint( cfg["Save_dir"] + "/model.h5", 
                                                      monitor= "val_acc", verbose= 1, save_best_only= True, mode= "max")
-    callback_CSV= keras.callbacks.CSVLogger(cfg["Save_dir"] + "model.log", append=True)
+    callback_CSV= keras.callbacks.CSVLogger(cfg["Save_dir"] + "/model.log", append=True)
 
     ## Train the model
-    model.fit_generator(image_generator_train, steps_per_epoch= len(image_generator_train), epochs= cfg["Epochs"], validation_data= image_generator_test, validation_steps= len(image_generator_test), callbacks=[callback_model, callback_CSV], shuffle= True)        
+    if (cfg["Flag_Load_Model"] == False):
+        NASNET_Model.fit_generator(image_generator_train, steps_per_epoch= len(image_generator_train), epochs= cfg["Epochs"], validation_data= image_generator_test, validation_steps= len(image_generator_test), callbacks=[callback_model, callback_CSV], shuffle= True) 
+
+    else:     
+        NASNET_Model= load_model(cfg["Path_Load_Model"], custom_objects={ "ICE":ICE})
+        NASNET_Model.compile(optimizer= keras.optimizers.SGD(lr= cfg["lr"], momentum= cfg["Momentum"]), loss= ICE, metrics=["accuracy"])
+        NASNET_Model.fit_generator(image_generator_train, steps_per_epoch= len(image_generator_train), epochs= cfg["Epochs"], validation_data= image_generator_test, validation_steps= len(image_generator_test), callbacks=[callback_model, callback_CSV], shuffle= True) 
+
 
     
 

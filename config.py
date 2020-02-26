@@ -1,4 +1,4 @@
-########## The required configurations for training phase ##########
+########## The required configurations for training and testing phase ##########
 
 cfg = dict()
 
@@ -39,15 +39,45 @@ cfg["Epochs"]= 500
 
 ## Batch Size
 cfg["Train_Batch_Size"]= 32
+cfg["Test_Batch_Size"]= 32
 
 
 ## Momentum
 cfg["Momentum"]= 0.9
 
 
-## The path to save models + log files
-cfg["Save_dir"]= "path/to/checkpoint/"
+## Flag for Load Model
+cfg["Load_Model_Flag"]= False
 
-############################### End ###############################
+
+## Path for Load Model
+cfg["Load_Model_Path"]= "path/to/checkpoint"
+
+
+## The path to save models + log files
+cfg["Save_dir"]= "path/to/checkpoint"
+
+##################################### End #######################################
+
+
+
+########## The required configurations for predicting phase ##########
+
+## Dataset Address
+cfg["Dataset_Address_Evaluate"]= "path/to/data/valid"   ## Note: Valid part is considered.
+
+
+## Path for Load Model
+cfg["Pretrained_Model_Path"]= "path/to/checkpoint"
+
+## Batch Size
+cfg["Eval_Batch_Size"]= 1
+
+############################### End ##################################
+
+
+
+
+
 
 
