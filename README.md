@@ -8,13 +8,6 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 
 ```
 
-<br />
-
-![image](https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/d5a84f12-91af-4b3d-8096-2d4a5e641ecc-usa.png)
-
-<br />
-
-
 <p align="center">
     ![image]<img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/d5a84f12-91af-4b3d-8096-2d4a5e641ecc-usa.png">
 </p> 
@@ -22,6 +15,12 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
     21 class UC Merced land-use Dataset (RGB)
 </p>
 
+<p align="center">
+    ![image]<img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/08191186-61c0-4298-80f0-85825f8ba2b4-udsd.png">
+</p> 
+<p align="center">
+    Our Architecture
+</p>
 
 
 
