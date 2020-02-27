@@ -41,6 +41,10 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 
 ### Pretrained models
 - Download trained model on AID dataset (train: 70% , valid: 30%) with accuracy score: 98.10 (https://drive.google.com/file/d/1-2sb1gBU9oYN4SF-iZ4Xab1mwVnmk0AD/view?usp=sharing)
+- Download trained model on AID dataset (train: 50% , valid: 50%) with accuracy score: 97.08 (https://drive.google.com/file/d/1-1fHZODRLKUvRwlCBHLVCMo4e7E-32HX/view?usp=sharing)
+- Download trained model on UC Merced land-use dataset (train: 80% , valid: 20%) with accuracy score: 99.52 (https://drive.google.com/file/d/1-20x38XGckZCNM-wsV7Gvpif4jaCVRQN/view?usp=sharing)
+- Download trained model on NWPU-RESISC45 dataset (train: 20% , valid: 80%) with accuracy score: 93.56 (https://drive.google.com/file/d/1-Ey8NkAa0HksmSrw7opIB1oATGD5_jH5/view?usp=sharing)
+- Download trained model on NWPU-RESISC45 dataset (train: 30% , valid: 70%) with accuracy score: 94.44 (https://drive.google.com/file/d/1hYcdtJHrviuDLGYwoodzJC9b23FnUj2q/view?usp=sharing)
 
 
 
