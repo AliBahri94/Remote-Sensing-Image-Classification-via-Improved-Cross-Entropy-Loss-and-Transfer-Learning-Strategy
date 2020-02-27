@@ -115,13 +115,9 @@ Remote_Sensing_Image_Classification/
 <p align="center">
     Bootstrap Chart for NWPU-RESISC45 Dataset
 </p>
-
-<p align="center">
-    
-    
-    
-</p>
-
+<!-- blank line -->
+<br>
+<!-- blank line -->
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_1.PNG">
 </p> 
