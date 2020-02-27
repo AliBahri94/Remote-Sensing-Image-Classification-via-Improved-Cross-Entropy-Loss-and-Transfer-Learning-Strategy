@@ -3,7 +3,7 @@
 cfg = dict()
 
 ## Dataset Address
-cfg["Dataset_Address"]= "path/to/data"
+cfg["Dataset_Address"]= "~/data/dataset name"  ## if you use raedy dataset path, you can enter link address in this path ==> "link address" 
 
 
 ## Image Format
@@ -17,7 +17,7 @@ cfg["Height_Shift_Range"]= 0.18
 cfg["Horizontal_Flip"]= True
 cfg["Fill_Mode"]= "nearest"
 
-## Input SHape
+## Input Shape
 cfg["Input_Shape"]= (256, 256, 3)
 
 
@@ -51,11 +51,11 @@ cfg["Load_Model_Flag"]= False
 
 
 ## Path for Load Model
-cfg["Load_Model_Path"]= "path/to/checkpoint"
+cfg["Load_Model_Path"]= "~/checkpoint/pretrained model.h5"
 
 
 ## The path to save models + log files
-cfg["Save_dir"]= "path/to/checkpoint"
+cfg["Save_dir"]= "~/checkpoint"
 
 ##################################### End #######################################
 
@@ -64,11 +64,11 @@ cfg["Save_dir"]= "path/to/checkpoint"
 ########## The required configurations for predicting phase ##########
 
 ## Dataset Address
-cfg["Dataset_Address_Evaluate"]= "path/to/data/valid"   ## Note: Valid part is considered.
+cfg["Dataset_Address_Evaluate"]= "~/data/dataset name/valid"   ## Note: 1. Consider Valid part, 2. You can use ready dataset address
 
 
 ## Path for Load Model
-cfg["Pretrained_Model_Path"]= "path/to/checkpoint"
+cfg["Pretrained_Model_Path"]= "~/checkpoint/tarained model.h5"
 
 ## Batch Size
 cfg["Eval_Batch_Size"]= 1
