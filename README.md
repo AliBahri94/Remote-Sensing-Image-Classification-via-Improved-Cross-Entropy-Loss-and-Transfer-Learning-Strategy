@@ -15,6 +15,7 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
     21 class UC Merced land-use Dataset (RGB)
 </p>
 
+
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/08191186-61c0-4298-80f0-85825f8ba2b4-udsd.png">
 </p> 
@@ -115,14 +116,15 @@ Remote_Sensing_Image_Classification/
 <p align="center">
     Bootstrap Chart for NWPU-RESISC45 Dataset
 </p>
-
-
+-
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_1.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE UC MERCED DATASET
 </p>
+
 
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_2.PNG">
@@ -131,6 +133,7 @@ Remote_Sensing_Image_Classification/
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE AID DATASET (50% TRAINING, 50% TESTING)
 </p>
 
+
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_3.PNG">
 </p> 
@@ -138,12 +141,14 @@ Remote_Sensing_Image_Classification/
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE AID DATASET (70% TRAINING, 30% TESTING)
 </p>
 
+
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_4.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE NWPU-RESISC45 DATASET (20% TRAINING,80% TESTING)
 </p>
+
 
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_5.PNG">
