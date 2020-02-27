@@ -46,5 +46,30 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 - Download trained model on NWPU-RESISC45 dataset (train: 20% , valid: 80%) with accuracy score: 93.56 (https://drive.google.com/file/d/1-Ey8NkAa0HksmSrw7opIB1oATGD5_jH5/view?usp=sharing)
 - Download trained model on NWPU-RESISC45 dataset (train: 30% , valid: 70%) with accuracy score: 94.44 (https://drive.google.com/file/d/1hYcdtJHrviuDLGYwoodzJC9b23FnUj2q/view?usp=sharing)
 
+## Project layout (recommended)
+```
+Remote_Sensing_Image_Classification/
+├── checkpoint
+├── data
+│   ├── AID (train:70%, valid:30%)
+│   ├── AID (train:50%, valid:50%)
+│   ├── UCMerced (train:80%, valid:20%)
+│   ├── NWPU-RESISC45 (train:30%, valid:70%)
+│   └── NWPU-RESISC45 (train:20%, valid:80%)
+├── docs
+└── model_pretrained
+│   ├── NasNet_Mobile_New_Loss3.02-0.9810(AID_70_30).h5
+│   ├── NasNet_Mobile_New_Loss3.19-0.9708(AID_50_50).h5
+│   ├── NasNet_Mobile_New_Loss3.117-0.9952(UCMerced_80_20).h5
+│   ├── NasNet_Mobile_New_Loss3_Dore_3.06-0.9356(NWPU_20_80).h5
+│   └── NasNet_Mobile_New_Loss3_94.43(NWPU_30_70).h5
+
+```
+## Quick start
+1. Download [test only](https://drive.google.com/file/d/1bch29fFj5t7IwoNjceuK8lFM6-ivwrP5/view?usp=sharing) dataset dataset and put into ``data/`` directory
+2. Download [pretrained models](https://drive.google.com/file/d/1ok7-Y0Ldbyi9Ii0Cm3wTzMx8vPvt6zIR/view?usp=sharing) and put into ``checkpoint/`` directory
+3. Run ``python test.py --dataset <DATASET_NAME>``
+4. Results will be saved into ``results/`` directory
+
 
 
