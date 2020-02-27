@@ -7,13 +7,15 @@ Please cite our project if it is helpful for your research
 A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensing Image Classification via Improved Cross-Entropy Loss and Transfer Learning Strategy Based on Deep Convolutional Neural Networks," in IEEE Geoscience and Remote Sensing Letters.
 
 ```
+## Image from UCMerced dataset
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/d5a84f12-91af-4b3d-8096-2d4a5e641ecc-usa.png">
 </p> 
 <p align="center">
     21 class UC Merced land-use Dataset (RGB)
-    \vspace*{3cm}
 </p>
+
+## Architecture
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/08191186-61c0-4298-80f0-85825f8ba2b4-udsd.png">
 </p> 
@@ -108,13 +110,15 @@ Remote_Sensing_Image_Classification/
 
 ## Quantitative and Qualitative results
 <p align="center">
-    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/cfab54f8-de43-48df-aaf7-8e1b47484013-uaaaaaa.png" width="500" height="500>
+    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/cfab54f8-de43-48df-aaf7-8e1b47484013-uaaaaaa.png">
 </p> 
 <p align="center">
     Bootstrap Chart for NWPU-RESISC45 Dataset
 </p>
--
--
+</hspace>
+</hspace>
+</hspace>
+</hspace>
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_1.PNG">
 </p> 
