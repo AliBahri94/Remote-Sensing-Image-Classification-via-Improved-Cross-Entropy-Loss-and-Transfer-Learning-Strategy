@@ -27,13 +27,6 @@ import numpy as np
 import keras
 from keras.models import load_model
 
-
-## source direction of dataset
-source_dir= "~/dataset name"
-
-## data direction which you want to create
-data_dir= "~/" # exp: "~/new dataset"
-
 def devide_dataset(train_percent= 70, valid_percent= 30, source_dir, data_dir):
 
     np.random.seed(8)
@@ -91,6 +84,12 @@ def devide_dataset(train_percent= 70, valid_percent= 30, source_dir, data_dir):
 
 if __name__ == '__main__':
     
-    devide_dataset(train_percent= 70, valid_percent= 30)
+    ## source direction of dataset
+    source_dir= "~/data/dataset name"
+
+    ## data direction which you want to create
+    data_dir= "~/data/dataset new name" 
+    
+    devide_dataset(train_percent= 70, valid_percent= 30, source_dir= source_dir, data_dir= data_dir)
 
 
