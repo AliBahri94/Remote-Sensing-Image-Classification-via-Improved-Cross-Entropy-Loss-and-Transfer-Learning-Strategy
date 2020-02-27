@@ -110,14 +110,14 @@ Remote_Sensing_Image_Classification/
 - Note: Configurations is in the config.py file.
 
 ## Quantitative and Qualitative results
-\usepackage{graphics}
-\scalebox{5}
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/cfab54f8-de43-48df-aaf7-8e1b47484013-uaaaaaa.png">
 </p> 
 <p align="center">
     Bootstrap Chart for NWPU-RESISC45 Dataset
 </p>
+-
 -
 -
 <p align="center">
@@ -128,12 +128,14 @@ Remote_Sensing_Image_Classification/
 </p>
 -
 -
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_2.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE AID DATASET (50% TRAINING, 50% TESTING)
 </p>
+-
 -
 -
 <p align="center">
@@ -144,12 +146,14 @@ Remote_Sensing_Image_Classification/
 </p>
 -
 -
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_4.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE NWPU-RESISC45 DATASET (20% TRAINING,80% TESTING)
 </p>
+-
 -
 -
 <p align="center">
