@@ -7,15 +7,16 @@ Please cite our project if it is helpful for your research
 A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensing Image Classification via Improved Cross-Entropy Loss and Transfer Learning Strategy Based on Deep Convolutional Neural Networks," in IEEE Geoscience and Remote Sensing Letters.
 
 ```
-
+-
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/d5a84f12-91af-4b3d-8096-2d4a5e641ecc-usa.png">
 </p> 
 <p align="center">
     21 class UC Merced land-use Dataset (RGB)
 </p>
-
-
+-
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/08191186-61c0-4298-80f0-85825f8ba2b4-udsd.png">
 </p> 
@@ -109,7 +110,8 @@ Remote_Sensing_Image_Classification/
 - Note: Configurations is in the config.py file.
 
 ## Quantitative and Qualitative results
-
+\usepackage{graphics}
+\scalebox{5}
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/cfab54f8-de43-48df-aaf7-8e1b47484013-uaaaaaa.png">
 </p> 
@@ -124,32 +126,32 @@ Remote_Sensing_Image_Classification/
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE UC MERCED DATASET
 </p>
-
-
+-
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_2.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE AID DATASET (50% TRAINING, 50% TESTING)
 </p>
-
-
+-
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_3.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE AID DATASET (70% TRAINING, 30% TESTING)
 </p>
-
-
+-
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_4.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE NWPU-RESISC45 DATASET (20% TRAINING,80% TESTING)
 </p>
-
-
+-
+-
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_5.PNG">
 </p> 
