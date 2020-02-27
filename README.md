@@ -29,7 +29,7 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 - ``numpy 1.17.5``
 - ``keras 2.2.5``
 
-## Download datasets
+## Download original datasets
 - AID (Aerial Image Dataset)
 - Download (https://drive.google.com/file/d/1D8gvnEvzbyNlZHLLD3zqLGiUaxgqp0yN/view?usp=sharing)
 - NWPU-RESISC45 (Northwestern Polytechnic University Remote Sensing Image Scene Classification 45)
@@ -38,6 +38,18 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 - Download (https://drive.google.com/file/d/1rzNVDsRn3JcVNnAYCI_eyd43ZoU_5vuq/view?usp=sharing)
 - WHU-RS19
 - Download (https://drive.google.com/file/d/1KuTwHU9Yumswrp9K1_FK0dlMN8QRjN-y/view?usp=sharing)
+
+## Download ready datasets (splited to train and valid parts)
+- AID (Aerial Image Dataset) (train: 50%, valid: 50%)
+- Download ()
+- AID (Aerial Image Dataset) (train: 70%, valid: 30%)
+- Download ()
+- NWPU-RESISC45 (Northwestern Polytechnic University Remote Sensing Image Scene Classification 45) (train: 20%, valid: 80%)
+- Download ()
+- NWPU-RESISC45 (Northwestern Polytechnic University Remote Sensing Image Scene Classification 45) (train: 30%, valid: 70%)
+- Download ()
+- UC Merced land-use (train: 80%, valid: 20%)
+- Download ()
 
 ### Pretrained models
 - Download trained model on AID dataset (train: 70% , valid: 30%) with accuracy score: 98.10 (https://drive.google.com/file/d/1-2sb1gBU9oYN4SF-iZ4Xab1mwVnmk0AD/view?usp=sharing)
@@ -80,3 +92,5 @@ Remote_Sensing_Image_Classification/
 3. Run ``python divide_dataset.py`` to split dataset to train and valid folder
 4. Run ``python train.py``
 5. All Models with be saved into ``checkpoint/`` direcory
+- Note: Configurations is in the config.py file.
+
