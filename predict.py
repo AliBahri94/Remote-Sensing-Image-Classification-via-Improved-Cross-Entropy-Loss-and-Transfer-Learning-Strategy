@@ -35,7 +35,13 @@ def evaluate_model():
     image_generator_test= image_data_gen_test.flow_from_directory(data_dir, class_mode= cfg["Class_Mode"], target_size= cfg["Target_Size"], batch_size= cfg["Eval_Batch_Size"], shuffle=False)
 
     ## Predict the model
-    NASNET_Model= load_model(cfg["Trained_Model_Path"], custom_objects={ "ICE":ICE})
+    
+    ## Important Note: if you evaluate your trained model, you have to run following code for loading model
+    #NASNET_Model= load_model(cfg["Trained_Model_Path"], custom_objects={ "ICE":ICE})
+    
+    ## Important Note: if you evaluate our trained model, you have to run following code for loading model
+    NASNET_Model= load_model(cfg["Trained_Model_Path"], custom_objects={ "New_loss3":New_loss3})
+    
     NASNET_Model.compile(optimizer= keras.optimizers.SGD(lr= cfg["lr"], momentum= cfg["Momentum"]), loss= ICE, metrics=["accuracy"])
     predictions= NASNET_Model.predict_generator(image_generator_test, steps=len(image_generator_test), callbacks=None, max_queue_size=10, workers=1, use_multiprocessing=False, verbose=1)
     predictions= np.argmax(predictions, axis=-1)
