@@ -118,6 +118,9 @@ Remote_Sensing_Image_Classification/
 <!-- blank line -->
 <br>
 <!-- blank line -->
+<!-- blank line -->
+<br>
+<!-- blank line -->
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_1.PNG">
 </p> 
