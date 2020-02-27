@@ -66,13 +66,17 @@ Remote_Sensing_Image_Classification/
 
 ```
 ## Quick start
-1. Download dataset and put into ``data/`` directory
+1. Download dataset and put into ``data/`` directory.
 2. Unzip dataset
-2. Run ``python devide_dataset.py`` to split dataset to train and valid folder
-3. Download pretrained models and put into ``checkpoint/`` directory
-3. Run ``python predict.py``
-4. Results will be shown.
+3. Run ``python divide_dataset.py`` to split dataset to train and valid folder
+4. Download pretrained models and put into ``checkpoint/`` directory
+5. Run ``python predict.py``
+6. Results will be shown.
 - Note: Configurations is in the config.py file.
 
-
-
+## Training
+1. Download dataset and put into ``data/`` directory
+2. Unzip dataset
+3. Run ``python divide_dataset.py`` to split dataset to train and valid folder
+4. Run ``python train.py``
+5. All Models with be saved into ``checkpoint/`` direcory
