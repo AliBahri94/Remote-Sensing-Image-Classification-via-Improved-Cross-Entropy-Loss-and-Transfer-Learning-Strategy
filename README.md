@@ -17,10 +17,6 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 <!-- blank line -->
 <br>
 <!-- blank line -->
-<!-- blank line -->
-<br>
-<!-- blank line -->
-<!-- blank line -->
 ## Architecture
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/08191186-61c0-4298-80f0-85825f8ba2b4-udsd.png">
