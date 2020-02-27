@@ -84,7 +84,7 @@ Remote_Sensing_Image_Classification/
 4. Results will be shown.
 - Note: Configurations is in the config.py file.
 
-## start to validate (using original datasets)
+## Start to validate (using original datasets)
 1. Download original dataset and put into ``data/`` directory.
 2. Unzip dataset
 3. Run ``python divide_dataset.py`` to split dataset to train and valid folder
@@ -99,7 +99,7 @@ Remote_Sensing_Image_Classification/
 3. All Models with be saved into ``checkpoint/`` direcory
 - Note: Configurations is in the config.py file.
 
-## start to Training (using original datasets)
+## Start to Training (using original datasets)
 1. Download original dataset and put into ``data/`` directory
 2. Unzip dataset
 3. Run ``python divide_dataset.py`` to split dataset to train and valid folder
@@ -107,3 +107,17 @@ Remote_Sensing_Image_Classification/
 5. All Models with be saved into ``checkpoint/`` direcory
 - Note: Configurations is in the config.py file.
 
+## Quantitative and Qualitative results
+<p align="center">
+    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/cfab54f8-de43-48df-aaf7-8e1b47484013-uaaaaaa.png">
+</p> 
+<p align="center">
+    Bootstrap Chart for NWPU-RESISC45 Dataset
+</p>
+
+<p align="center">
+    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/t_1.PNG">
+</p> 
+<p align="center">
+    OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE UC MERCED DATASET
+</p>
