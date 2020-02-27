@@ -39,17 +39,17 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 - WHU-RS19
 - Download (https://drive.google.com/file/d/1KuTwHU9Yumswrp9K1_FK0dlMN8QRjN-y/view?usp=sharing)
 
-## Download ready datasets (splited to train and valid parts)
+## Use ready datasets (splited to train and valid parts)
 - AID (Aerial Image Dataset) (train: 50%, valid: 50%)
-- Download ()
+- Address (https://drive.google.com/drive/folders/10U9jzimYUtD9iGn9am3cricgEpbfNuJV?usp=sharing)
 - AID (Aerial Image Dataset) (train: 70%, valid: 30%)
-- Download ()
+- Address (https://drive.google.com/drive/folders/11hTqDCVB-hoEDWMTMIeGbPyAytKDQ8IA?usp=sharing)
 - NWPU-RESISC45 (Northwestern Polytechnic University Remote Sensing Image Scene Classification 45) (train: 20%, valid: 80%)
-- Download ()
+- Address (https://drive.google.com/drive/folders/1X2oTWq8hJ-1Miy1mJyM4SD3l7SuZgN95?usp=sharing)
 - NWPU-RESISC45 (Northwestern Polytechnic University Remote Sensing Image Scene Classification 45) (train: 30%, valid: 70%)
-- Download ()
+- Address (https://drive.google.com/drive/folders/1XJinSCqe8mLUcmj4KzW9nWzM8zhnW_g4?usp=sharing)
 - UC Merced land-use (train: 80%, valid: 20%)
-- Download ()
+- Address (https://drive.google.com/drive/folders/15JMhL7peTdO8DZhyheYrkKbCUuFabeGT?usp=sharing)
 
 ### Pretrained models
 - Download trained model on AID dataset (train: 70% , valid: 30%) with accuracy score: 98.10 (https://drive.google.com/file/d/1-2sb1gBU9oYN4SF-iZ4Xab1mwVnmk0AD/view?usp=sharing)
@@ -77,8 +77,15 @@ Remote_Sensing_Image_Classification/
     └── NasNet_Mobile_New_Loss3_94.43(NWPU_30_70).h5
 
 ```
-## Quick start
-1. Download dataset and put into ``data/`` directory.
+## Quick start to validate(using ready datasets)
+1. Use ready dataset path
+2. Download pretrained models and put into ``checkpoint/`` directory
+3. Run ``python predict.py``
+4. Results will be shown.
+- Note: Configurations is in the config.py file.
+
+## start to validate (using original datasets)
+1. Download original dataset and put into ``data/`` directory.
 2. Unzip dataset
 3. Run ``python divide_dataset.py`` to split dataset to train and valid folder
 4. Download pretrained models and put into ``checkpoint/`` directory
@@ -86,8 +93,14 @@ Remote_Sensing_Image_Classification/
 6. Results will be shown.
 - Note: Configurations is in the config.py file.
 
-## Training
-1. Download dataset and put into ``data/`` directory
+## Quick start to Training (using ready datasets)
+1. Use ready dataset path
+2. Run ``python train.py``
+3. All Models with be saved into ``checkpoint/`` direcory
+- Note: Configurations is in the config.py file.
+
+## start to Training (using original datasets)
+1. Download original dataset and put into ``data/`` directory
 2. Unzip dataset
 3. Run ``python divide_dataset.py`` to split dataset to train and valid folder
 4. Run ``python train.py``
