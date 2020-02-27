@@ -9,6 +9,13 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 ```
 
 <p align="center">
+    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/d5a84f12-91af-4b3d-8096-2d4a5e641ecc-usa.PNG">
+</p> 
+<p align="center">
+    Comparison of proposed FEQE with other state-of-the-art super-resolution and enhancement methods
+</p>
+
+<p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/d5a84f12-91af-4b3d-8096-2d4a5e641ecc-usa.png">
 </p> 
 <p align="center">
