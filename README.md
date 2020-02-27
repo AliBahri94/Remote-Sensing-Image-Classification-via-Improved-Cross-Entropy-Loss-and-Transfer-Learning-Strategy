@@ -39,6 +39,8 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 - WHU-RS19
 - Download (https://drive.google.com/file/d/1KuTwHU9Yumswrp9K1_FK0dlMN8QRjN-y/view?usp=sharing)
 
+### Pretrained models
+- Download trained model on AID dataset (train: 70% , valid: 30%) with accuracy score: 98.10 (https://drive.google.com/file/d/1-2sb1gBU9oYN4SF-iZ4Xab1mwVnmk0AD/view?usp=sharing)
 
 
 
