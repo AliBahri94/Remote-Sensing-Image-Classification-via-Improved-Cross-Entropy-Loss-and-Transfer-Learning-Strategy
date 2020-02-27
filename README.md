@@ -8,6 +8,7 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 
 ```
 
+
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/d5a84f12-91af-4b3d-8096-2d4a5e641ecc-usa.png">
 </p> 
@@ -16,7 +17,7 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 </p>
 
 <p align="center">
-    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/08191186-61c0-4298-80f0-85825f8ba2b4-udsd.png">
+    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/08191186-61c0-4298-80f0-85825f8ba2b4-udsd.png">
 </p> 
 <p align="center">
     Our Architecture
@@ -109,14 +110,14 @@ Remote_Sensing_Image_Classification/
 
 ## Quantitative and Qualitative results
 <p align="center">
-    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/cfab54f8-de43-48df-aaf7-8e1b47484013-uaaaaaa.png">
+    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/cfab54f8-de43-48df-aaf7-8e1b47484013-uaaaaaa.png">
 </p> 
 <p align="center">
     Bootstrap Chart for NWPU-RESISC45 Dataset
 </p>
 
 <p align="center">
-    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/master/docs/t_1.PNG">
+    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_1.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE UC MERCED DATASET
