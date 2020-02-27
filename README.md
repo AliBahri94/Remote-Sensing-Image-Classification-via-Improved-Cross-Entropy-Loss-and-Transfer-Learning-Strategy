@@ -108,7 +108,7 @@ Remote_Sensing_Image_Classification/
 
 ## Quantitative and Qualitative results
 <p align="center">
-    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/cfab54f8-de43-48df-aaf7-8e1b47484013-uaaaaaa.png">
+    <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/cfab54f8-de43-48df-aaf7-8e1b47484013-uaaaaaa.png" width="500" height="220>
 </p> 
 <p align="center">
     Bootstrap Chart for NWPU-RESISC45 Dataset
