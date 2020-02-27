@@ -115,42 +115,41 @@ Remote_Sensing_Image_Classification/
 <p align="center">
     Bootstrap Chart for NWPU-RESISC45 Dataset
 </p>
-</hspace>
-</hspace>
-</hspace>
-</hspace>
+
+<p align="center">
+    
+    
+    
+</p>
+
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_1.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE UC MERCED DATASET
 </p>
--
--
+
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_2.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE AID DATASET (50% TRAINING, 50% TESTING)
 </p>
--
--
+
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_3.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE AID DATASET (70% TRAINING, 30% TESTING)
 </p>
--
--
+
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_4.PNG">
 </p> 
 <p align="center">
     OVERALL ACCURACY OF THE REFERENCE AND THE PROPOSED METHOD ON THE NWPU-RESISC45 DATASET (20% TRAINING,80% TESTING)
 </p>
--
--
+
 <p align="center">
     <img src="https://github.com/AliBahri94/Remote-Sensing-Image-Classification/blob/master/docs/t_5.PNG">
 </p> 
