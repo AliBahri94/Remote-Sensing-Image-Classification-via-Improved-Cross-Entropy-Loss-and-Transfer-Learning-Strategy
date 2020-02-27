@@ -52,7 +52,7 @@ A. Bahri, S. G. Majelan, S. Mohammadi, M. Noori and K. Mohammadi, "Remote Sensin
 - UC Merced land-use (train: 80%, valid: 20%)
 - Address (https://drive.google.com/drive/folders/15JMhL7peTdO8DZhyheYrkKbCUuFabeGT?usp=sharing)
 
-### trained models
+### Trained models
 - Download trained model on AID dataset (train: 70% , valid: 30%) with accuracy score: 98.10 (https://drive.google.com/file/d/1-2sb1gBU9oYN4SF-iZ4Xab1mwVnmk0AD/view?usp=sharing)
 - Download trained model on AID dataset (train: 50% , valid: 50%) with accuracy score: 97.08 (https://drive.google.com/file/d/1-1fHZODRLKUvRwlCBHLVCMo4e7E-32HX/view?usp=sharing)
 - Download trained model on UC Merced land-use dataset (train: 80% , valid: 20%) with accuracy score: 99.52 (https://drive.google.com/file/d/1-20x38XGckZCNM-wsV7Gvpif4jaCVRQN/view?usp=sharing)
@@ -70,7 +70,7 @@ Remote_Sensing_Image_Classification/
 │   ├── NWPU-RESISC45 (train:30%, valid:70%)
 │   └── NWPU-RESISC45 (train:20%, valid:80%)
 ├── docs
-└── trained_model
+└── trained_models
     ├── NasNet_Mobile_New_Loss3.02-0.9810(AID_70_30).h5
     ├── NasNet_Mobile_New_Loss3.19-0.9708(AID_50_50).h5
     ├── NasNet_Mobile_New_Loss3.117-0.9952(UCMerced_80_20).h5
@@ -80,7 +80,7 @@ Remote_Sensing_Image_Classification/
 ```
 ## Quick start to validate(using ready datasets)
 1. Use ready dataset path (only valid part)
-2. Download pretrained models and put into ``checkpoint/`` directory
+2. Download trained models and put into ``trained_models/`` directory
 3. Run ``python predict.py``
 4. Results will be shown.
 - Note: Configurations is in the config.py file.
@@ -89,7 +89,7 @@ Remote_Sensing_Image_Classification/
 1. Download original dataset and put into ``data/`` directory.
 2. Unzip dataset
 3. Run ``python divide_dataset.py`` to split dataset to train and valid folder
-4. Download pretrained models and put into ``checkpoint/`` directory
+4. Download trained models and put into ``trained_models/`` directory
 5. Run ``python predict.py``
 6. Results will be shown.
 - Note: Configurations is in the config.py file.
