@@ -68,7 +68,7 @@ cfg["Dataset_Address_Evaluate"]= "~/data/dataset name/valid"   ## Note: 1. Consi
 
 
 ## Path for Load Model
-cfg["Pretrained_Model_Path"]= "~/checkpoint/tarained model.h5"
+cfg["Trained_Model_Path"]= "~/trained_models/tarained model.h5"
 
 ## Batch Size
 cfg["Eval_Batch_Size"]= 1
